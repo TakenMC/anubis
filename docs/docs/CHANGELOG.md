@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
+- Added support to use Traefik forwardAuth middleware
 - Remove the unused `/test-error` endpoint and update the testing endpoint `/make-challenge` to only be enabled in
   development
 - Add `--xff-strip-private` flag/envvar to toggle skipping X-Forwarded-For private addresses or not
